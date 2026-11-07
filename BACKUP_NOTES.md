@@ -1,4 +1,8 @@
-# Source backup
+# SAS4-Inspired-3D-Polished
+
+Alternate polished Unity action-game prototype inspired by SAS: Zombie Assault 4.
+
+Unofficial fan/learning project. Third-party names, characters, artwork, and other materials remain subject to their owners' rights. No affiliation or endorsement is claimed.
 
 Private source snapshot prepared on 2026-11-07. Original local files were not changed.
 
