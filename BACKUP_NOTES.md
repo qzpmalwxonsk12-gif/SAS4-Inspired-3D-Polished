@@ -16,29 +16,10 @@ This is a current working-file snapshot, not a copy of the original Git history.
 - `Library/`: generated, runtime, dependency, or local data directory
 - `Logs/`: generated, runtime, dependency, or local data directory
 - `UserSettings/`: generated, runtime, dependency, or local data directory
-- `Assets\Enemies\Models/`: generated, runtime, dependency, or local data directory
-- `Assets/Mission/Audio/Alert.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/BossWarning.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/ClearDeck.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/Departure.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/Engine.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/GateClang.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/GateCollapse.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/Intro.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/PistolShot.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/Reload.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Mission/Audio/RifleShot.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets\Onslaught\Models/`: generated, runtime, dependency, or local data directory
-- `Assets\Vaccine\Models/`: generated, runtime, dependency, or local data directory
-- `Assets/Vaccine/Combat/Audio/Radio-00.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-01.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-02.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-03.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-04.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-05.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-06.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-07.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-08.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-09.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-10.wav`: build, runtime, credentials, archive, or model artifact
-- `Assets/Vaccine/Combat/Audio/Radio-11.wav`: build, runtime, credentials, archive, or model artifact
+
+
+
+
+## Final source/security review (2026-11-07)
+
+Restored 63 required authored source/assets that an overly broad backup filter had omitted. Source directories named `Models`, `models`, `cache` or `raw` are not treated as runtime data merely because of their names.
