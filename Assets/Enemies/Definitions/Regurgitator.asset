@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7569307b77e68d49bd41c6c90093d3d, type: 3}
+  m_Name: Regurgitator
+  m_EditorClassIdentifier: Assembly-CSharp::ShipEnemies.EnemyDefinition
+  kind: 4
+  displayName: Regurgitator
+  health: 7500
+  speed: 5
+  turnSpeed: 72
+  radius: 1.55
+  height: 3.6
+  meleeDamage: 45
+  meleeRange: 2.5
+  meleeCooldown: 2.2
+  meleeWindup: 0.78
+  meleeDuration: 1.6
+  rangedRange: 16
+  rangedCooldown: 8.5
+  rangedWindup: 1.1
+  rangedDuration: 2.4
+  acidImpactDamage: 18
+  acidDamagePerSecond: 12
+  acidRadius: 2.6
+  acidLifetime: 7
+  chemicalResistance: 0.2
+  deathParasites: 6
+  vomitParasites: 3
+  parasitePrefab: {fileID: 3141906167062883974, guid: e2f110c84dc7d574e81cf0f76b7a2366, type: 3}
+  projectilePrefab: {fileID: 5516021328109072448, guid: 2bd5fae05edfb9748b4aaa310daaa0a2, type: 3}
+  poolPrefab: {fileID: 2659245702835258307, guid: 4e9c53fe559010145a7dd51331974e84, type: 3}

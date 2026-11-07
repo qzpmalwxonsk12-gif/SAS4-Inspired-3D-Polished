@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Shambler",
+    "triangles": 17578,
+    "bones": 18,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death"
+    ]
+  },
+  {
+    "name": "Sprinter",
+    "triangles": 15894,
+    "bones": 18,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death"
+    ]
+  },
+  {
+    "name": "Spitter",
+    "triangles": 20228,
+    "bones": 18,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death",
+      "Spit"
+    ]
+  },
+  {
+    "name": "Bloater",
+    "triangles": 23806,
+    "bones": 18,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death"
+    ]
+  },
+  {
+    "name": "Regurgitator",
+    "triangles": 25868,
+    "bones": 18,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death",
+      "Vomit"
+    ]
+  },
+  {
+    "name": "Worm",
+    "triangles": 5414,
+    "bones": 5,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death"
+    ]
+  },
+  {
+    "name": "PukeWorm",
+    "triangles": 6840,
+    "bones": 5,
+    "clips": [
+      "Idle",
+      "Move",
+      "Melee",
+      "Hit",
+      "Death"
+    ]
+  }
+]

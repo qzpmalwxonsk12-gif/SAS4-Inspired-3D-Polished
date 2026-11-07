@@ -1,0 +1,10 @@
+* text=auto
+*.cs text eol=lf
+*.unity text eol=lf whitespace=-blank-at-eol
+*.prefab text eol=lf whitespace=-blank-at-eol
+*.asset text eol=lf whitespace=-blank-at-eol
+*.meta text eol=lf whitespace=-blank-at-eol
+*.mat text eol=lf whitespace=-blank-at-eol
+*.controller text eol=lf whitespace=-blank-at-eol
+*.fbx binary
+*.blend binary
